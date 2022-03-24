@@ -1,3 +1,13 @@
 console.log("hi world");
 
-console.log("send by ssh_key")
+class print{
+    constructor(a){
+        this.chop = a;
+    }
+
+    printConsole(){
+        console.log(this.chop);
+    }
+}
+
+new print("ali").printConsole();
